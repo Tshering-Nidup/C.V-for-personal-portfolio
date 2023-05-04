@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Gideon Roman", cursive;
+}
+/* div#main-container {
+} */
+
+section {
+  margin: 20px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 10px grey;
+  background-color: #fff;
+  padding: 20px;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+section:hover {
+  transform: scale(0.97);
+}
+
+#mainContent {
+  display: flex;
+}
+@media screen and (max-width: 430px) {
+  section {
+    padding: 20px;
+  }
+  #profile-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  #profile-section img {
+    /* position: relative; */
+    width: 100%;
+  }
+
+  #mainContent {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  #profile-section {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    align-items: center;
+  }
+  #profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #profile-section #details {
+    padding: 20px 0px;
+  }
+
+  #profile-section img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #profile-section #details {
+    padding: 20px 0px;
+  }
+}

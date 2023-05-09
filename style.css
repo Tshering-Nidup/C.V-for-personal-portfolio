@@ -50,6 +50,18 @@ section:hover {
   }
 }
 
+#profile-section #contactLinks {
+  font-size: 2rem;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#contactLinks a i:hover {
+  color: black;
+}
+
 @media screen and (min-width: 500px) and (max-width: 767px) {
   #profile-section {
     display: flex;

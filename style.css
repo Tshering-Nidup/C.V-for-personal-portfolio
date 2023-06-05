@@ -22,6 +22,10 @@ section {
   transition: 0.5s;
   border-radius: 10px;
 }
+#profile-section:hover {
+  background-color:#283C4B ;
+  color: #fff;
+}
 
 section:hover {
   /* transform: scale(0.97);

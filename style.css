@@ -36,14 +36,15 @@ section:hover {
 #mainContent {
   display: flex;
 }
-
+#profile-section #contactLinks a {
+background-color: #73758A;
+}
 #profile-section #contactLinks {
   font-size: 2rem;
   display: flex;
   margin: 10px;
   justify-content: center;
   justify-content: space-around;
-  background-color: #73758A;
 }
 
 #contactLinks a i:hover {

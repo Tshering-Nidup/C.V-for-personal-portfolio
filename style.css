@@ -37,7 +37,7 @@ section:hover {
   display: flex;
 }
 #profile-section #contactLinks a {
-background-color: #73758A;
+color: #73758A;
 }
 #profile-section #contactLinks {
   font-size: 2rem;

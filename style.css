@@ -43,6 +43,7 @@ section:hover {
   margin: 10px;
   justify-content: center;
   justify-content: space-around;
+  background-color: #73758A;
 }
 
 #contactLinks a i:hover {

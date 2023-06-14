@@ -3,7 +3,6 @@
 *,
 *::after,
 *::before {
-  
   box-sizing: border-box;
   margin: 0;
   line-height: 1.5;
@@ -37,9 +36,7 @@ section:hover {
 #mainContent {
   display: flex;
 }
-#profile-section #contactLinks a i{
-color: #73758A;
-}
+
 #profile-section #contactLinks {
   font-size: 2rem;
   display: flex;

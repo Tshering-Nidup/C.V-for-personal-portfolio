@@ -36,7 +36,9 @@ section:hover {
 #mainContent {
   display: flex;
 }
-
+#profile-section #contactLinks a i{
+color: #73758A;
+}
 #profile-section #contactLinks {
   font-size: 2rem;
   display: flex;

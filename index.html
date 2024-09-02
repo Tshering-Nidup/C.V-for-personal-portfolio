@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal CV</title>
+
+      <!-- AOS link  -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+      <!-- Font awesome link -->
     <script
       src="https://kit.fontawesome.com/a45fc4ef11.js"
       crossorigin="anonymous"
     ></script>
 
+
+    <!-- CSS link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="main-container">
       <!-- Top Section -->
-      <section id="profile-section" title="profile section">
+      <section id="profile-section" title="profile section" data-aos="slide-down" data-aos-duration="3000">
         <div id="profile" title="profile image">
           <img src="Profile rm.png" alt="Profile Picture" />
         </div>
@@ -45,7 +52,7 @@
       <div id="mainContent">
         <div class="subs">
           <!-- Professional Summary / objects -->
-          <section id="ProfessionalSummary" title="professional summary">
+          <section id="ProfessionalSummary" title="professional summary" data-aos="slide-right" data-aos-duration="3000">
             <h3>Professional Summary</h3>
             <p>
               A highly motivated and results-driven professional with 3 years of
@@ -58,7 +65,7 @@
           </section>
 
           <!-- Education and Qualifications -->
-          <section title="Education and Qualifications">
+          <section title="Education and Qualifications" data-aos="slide-right" data-aos-duration="3000">
             <h3>Education and Qualifications</h3>
             <ul>
               <li>
@@ -73,7 +80,7 @@
           </section>
 
           <!-- Skills and Abilities -->
-          <section title="Skills and Abilities">
+          <section title="Skills and Abilities" data-aos="slide-right" data-aos-duration="3000">
             <h3>Skills and Abilities</h3>
             <ul>
               <li>
@@ -99,7 +106,7 @@
           </section>
 
           <!-- Professional Certifications and Training -->
-          <section title="Professional Certifications and Training">
+          <section title="Professional Certifications and Training" data-aos="slide-right" data-aos-duration="3000">
             <h3>Professionaly Certified Trainer for Coding, BSD</h3>
             <ul>
               <li>CPD in BSD coding, BSD in colloboration with DSP, 2021</li>
@@ -107,7 +114,7 @@
           </section>
 
           <!--      Hobbies      -->
-          <section title="Hobbies">
+          <section title="Hobbies" data-aos="slide-up" data-aos-duration="3000">
             <h3>Hobbies and Work styles</h3>
             <ul>
               <li>Working and designing in Photoshop upgrades my front-End skills</li>
@@ -118,7 +125,7 @@
 
         <!-- Work Experience -->
         <div class="subs">
-          <section title="Work Experience">
+          <section title="Work Experience" data-aos="slide-left" data-aos-duration="3000">
             <h3>Work Experience</h3>
             <ol>
               <li>
@@ -160,7 +167,7 @@
               </li>
             </ol>
           </section>
-          <section>
+          <section data-aos="slide-up" data-aos-duration="3000">
             <h3>References</h3>
             <ol>
               <li>
@@ -198,5 +205,12 @@
         </div>
       </div>
     </div>
+
+
+    <!--  JS AOS link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>

@@ -6,12 +6,14 @@
   box-sizing: border-box;
   margin: 0;
   line-height: 1.5;
+  padding: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
 }
-/* div#main-container {
-} */
+div#main-container {
+  margin: 100px;
+}
 
 section {
   margin: 20px;
@@ -25,6 +27,15 @@ section {
 #profile-section:hover {
   background-color: #283c4b;
   color: #fff;
+}
+
+#profile-section div#profile > img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-color: #283c4b;
 }
 
 section:hover {
@@ -53,6 +64,10 @@ section:hover {
 }
 
 @media screen and (max-width: 499px) {
+  div#main-container {
+    margin: 10px;
+  }
+
   section {
     padding: 20px;
   }
@@ -74,6 +89,11 @@ section:hover {
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
+
+  div#main-container {
+    margin: 20px;
+  }
+
   #profile-section {
     display: flex;
     /* flex-direction: row-reverse; */
@@ -95,6 +115,10 @@ section:hover {
 }
 
 @media screen and (min-width: 768px) {
+
+  div#main-container {
+    margin: 50px;
+  }
   #profile-section {
     display: flex;
     flex-direction: column;

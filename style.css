@@ -15,6 +15,10 @@ div#main-container {
   margin: 100px;
 }
 
+li {
+  margin: 15px;
+}
+
 section {
   margin: 20px;
   /* border: 1px solid black; */
@@ -33,7 +37,7 @@ section {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   border-radius: 50%;
   background-color: #283c4b;
 }

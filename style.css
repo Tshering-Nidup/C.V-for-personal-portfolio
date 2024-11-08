@@ -30,8 +30,11 @@ section {
 }
 
 section > h3 {
+  border-bottom: 3px solid #73758a;
   font-weight: bolder;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #283c4b;
 }
 #profile-section:hover {
   background-color: #283c4b;
@@ -42,9 +45,10 @@ section > h3 {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   border-radius: 50%;
   background-color: #283c4b;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 section:hover {
@@ -86,11 +90,13 @@ section:hover {
     /* align-items: center; */
     justify-content: center;
   }
-  #profile-section img {
-    /* position: relative; */
-    width: 100%;
-  }
+  #profile-section div#profile > img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 50px auto;
 
+  }
   #mainContent {
     display: flex;
     flex-direction: column;
@@ -105,25 +111,24 @@ section:hover {
 
   #profile-section {
     display: flex;
-    /* flex-direction: row-reverse; */
-    justify-content: center;
-    align-items: center;
-  }
-  #profile-section {
-    display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
   }
   #profile-section #details {
     padding: 20px 0px;
   }
 
-  #profile-section img {
-    width: 100%;
+  #profile-section div#profile > img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 50px auto;
+
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
   div#main-container {
     margin: 50px;
